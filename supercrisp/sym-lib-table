@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Switch_Reversible")(type "KiCad")(uri "${KIPRJMOD}/Switch_Reversible.kicad_sym")(options "")(descr ""))
+  (lib (name "sw_push_dual")(type "KiCad")(uri "${KIPRJMOD}/sw_push_dual.kicad_sym")(options "")(descr ""))
+)

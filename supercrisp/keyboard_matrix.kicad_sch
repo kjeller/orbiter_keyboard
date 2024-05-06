@@ -1,0 +1,10018 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "48e44c17-3f14-461c-964b-fb6c461ee2a2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4001"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4001"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4001_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4001_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "sw_push_dual:SW_Push_Dual"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW?"
+				(at -0.635 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at -0.635 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_Dual_0_1"
+				(circle
+					(center -2.032 -3.81)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -3.81)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_1_1"
+				(pin passive line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 191.77 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0209b1bf-1ae3-4ce4-84c8-871da7e97381")
+	)
+	(junction
+		(at 152.4 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0445ede3-20a9-4d06-be59-079fd52c0449")
+	)
+	(junction
+		(at 181.61 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b9499f-366e-485d-b5f9-85f750487b62")
+	)
+	(junction
+		(at 166.37 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09b7d42f-12ab-4bac-ac7e-d67415d6b6c2")
+	)
+	(junction
+		(at 201.93 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5849e4-b76d-40fe-b757-e38fffa7b457")
+	)
+	(junction
+		(at 146.05 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ebafe0c-d714-49ab-b1a5-3c0ceb892789")
+	)
+	(junction
+		(at 104.14 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "149c5436-a65a-45cc-9248-c70c4633f8eb")
+	)
+	(junction
+		(at 90.17 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14cc8f2e-753c-4d0f-87e7-40ef87c02964")
+	)
+	(junction
+		(at 146.05 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c95699-b48a-4857-a297-f22479071393")
+	)
+	(junction
+		(at 132.08 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ff44f4-c82f-4026-ad39-82b1dca8f099")
+	)
+	(junction
+		(at 100.33 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21051bf2-f607-4bb5-9450-ea7a0ec50709")
+	)
+	(junction
+		(at 104.14 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c169b9e-b486-4e41-9304-d79ba38c30f3")
+	)
+	(junction
+		(at 110.49 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e172916-cc89-40a5-82ef-95b0c81a9ccf")
+	)
+	(junction
+		(at 110.49 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31340a56-69fb-47f1-8ddf-96dd49512fa8")
+	)
+	(junction
+		(at 142.24 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36bb20b0-1e77-41ed-a228-3e5043bac385")
+	)
+	(junction
+		(at 110.49 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39a2fdb3-16bb-4b9a-9a55-f51b5fa940c8")
+	)
+	(junction
+		(at 152.4 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bdd61ff-7c52-4a2f-bbdc-57ed33aacc71")
+	)
+	(junction
+		(at 104.14 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fd19b23-b907-437b-87b2-c5f39866a680")
+	)
+	(junction
+		(at 162.56 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40744275-9385-48ee-afcf-9dac1d95e6c8")
+	)
+	(junction
+		(at 124.46 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40ee9f50-26f0-4fc0-8c43-3e86539e7fb5")
+	)
+	(junction
+		(at 162.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "496d664d-7d47-4b7e-b30b-094f0ba9aa13")
+	)
+	(junction
+		(at 181.61 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50009407-8605-4691-9742-a2ab001bd417")
+	)
+	(junction
+		(at 152.4 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5930451a-6294-4517-8a08-64ef294ab847")
+	)
+	(junction
+		(at 201.93 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "606a8f0c-8903-4f95-915b-c47e9dc49724")
+	)
+	(junction
+		(at 166.37 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "660e2595-478f-4420-8b62-504135687194")
+	)
+	(junction
+		(at 181.61 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68289117-155e-4025-ac02-80133e15301f")
+	)
+	(junction
+		(at 120.65 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "684814e1-1bff-47d3-b132-9893feec2b5c")
+	)
+	(junction
+		(at 124.46 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7001a951-5258-4305-a0d6-fb772745b726")
+	)
+	(junction
+		(at 146.05 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "725768fd-4c4d-4d6c-b67f-11216f4d13ed")
+	)
+	(junction
+		(at 100.33 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74cf4b46-733a-44f4-9d91-462d9854855a")
+	)
+	(junction
+		(at 171.45 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a21e67c-d817-4980-906f-a3769dbd6520")
+	)
+	(junction
+		(at 104.14 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d39510d-87de-41c2-8c28-5c0cdd4d2ec7")
+	)
+	(junction
+		(at 166.37 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ea57149-b329-49f7-86d3-063d3a0fc00d")
+	)
+	(junction
+		(at 166.37 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fdb9a81-ae29-40f1-a7b6-e8a46bf0971f")
+	)
+	(junction
+		(at 120.65 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "873bc283-85ec-42d3-bc97-a692e60736f6")
+	)
+	(junction
+		(at 90.17 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "888f0688-e74e-411c-b59e-831d1201736f")
+	)
+	(junction
+		(at 100.33 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89543404-246f-4d43-86f4-f8a0c644d568")
+	)
+	(junction
+		(at 201.93 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91690d6e-ba4c-4434-beb7-9d7746fbbba3")
+	)
+	(junction
+		(at 162.56 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b0c210c-306f-4687-9619-d00c1ab9b636")
+	)
+	(junction
+		(at 162.56 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4ddffa-2f8d-4814-b53e-e9c67293a721")
+	)
+	(junction
+		(at 191.77 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa7579aa-5f74-482d-8aaf-6687c95b7add")
+	)
+	(junction
+		(at 142.24 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1274330-e76c-469b-bd45-be00d46c67ab")
+	)
+	(junction
+		(at 185.42 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b138dfa4-4ca3-425d-a588-9d33002ccac3")
+	)
+	(junction
+		(at 100.33 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b316adfd-8a60-4a07-9a4a-f6aa549b9386")
+	)
+	(junction
+		(at 142.24 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd23489-030f-4a10-aa32-a46e0dc6aefb")
+	)
+	(junction
+		(at 146.05 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bea2b23a-f0da-44e4-9276-676b64a18181")
+	)
+	(junction
+		(at 142.24 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef943e5-2062-4017-8c57-c923e5c53cf2")
+	)
+	(junction
+		(at 171.45 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1b769b3-3da2-42e4-a80e-92cdfbcbef80")
+	)
+	(junction
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a5e7ae-435e-47ed-b9d5-435b7c352960")
+	)
+	(junction
+		(at 104.14 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c51cf2c4-be34-462e-a20e-e044434ff5e7")
+	)
+	(junction
+		(at 181.61 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c92c1b82-912d-41e2-a9a1-929f1b9f636f")
+	)
+	(junction
+		(at 120.65 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c98146fc-fe01-4f6e-ae51-d15ea17ecfbc")
+	)
+	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cedec526-1a4e-4754-be13-158ec92ddca1")
+	)
+	(junction
+		(at 124.46 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d214c2a8-76d4-4da5-9df2-a9764a5e6c53")
+	)
+	(junction
+		(at 120.65 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3a09b4c-0fcd-4251-8f14-9a51c9131104")
+	)
+	(junction
+		(at 90.17 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d73c5b08-f2e9-4d63-bda7-4d304693f789")
+	)
+	(junction
+		(at 171.45 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7473e62-ec3b-4261-871b-2bad4d8d4417")
+	)
+	(junction
+		(at 110.49 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dee29bb6-1587-4b71-8847-5a2055912e3d")
+	)
+	(junction
+		(at 185.42 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deea9a58-2076-4786-be67-cd4b22f227ee")
+	)
+	(junction
+		(at 100.33 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed872935-48f7-4065-8305-b30d65c5c4d8")
+	)
+	(junction
+		(at 191.77 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f15fd93c-0b79-4e5a-8c0c-1704dc973c3f")
+	)
+	(junction
+		(at 132.08 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3b8caf3-1f65-425c-94ff-41b2692ddc89")
+	)
+	(junction
+		(at 185.42 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f50fdd85-2e8d-41a3-8830-bbdcc7e7ad11")
+	)
+	(junction
+		(at 124.46 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79025c2-3799-4263-8a4d-b91b6d25c897")
+	)
+	(junction
+		(at 185.42 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9fbb71c-dfe9-4413-bd5c-b4e7dcff6ad2")
+	)
+	(junction
+		(at 201.93 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fba9dbba-a5d3-44b2-b1dd-f877409e2a50")
+	)
+	(junction
+		(at 90.17 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd6a77a7-68bf-491d-9498-3b16079706f0")
+	)
+	(bus_entry
+		(at 73.66 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196f69ec-d565-4de5-b416-a95a4ed9db7a")
+	)
+	(bus_entry
+		(at 107.95 27.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288a6666-a5e2-46a1-8e30-94c7643ddd38")
+	)
+	(bus_entry
+		(at 73.66 147.32)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bad0fea-6ba0-4e27-92d4-7ba42437e305")
+	)
+	(bus_entry
+		(at 149.86 27.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ecf219-9e23-4a39-b1c0-0f09a4d32e50")
+	)
+	(bus_entry
+		(at 73.66 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533c3372-5e68-4a65-8078-bdc74eec6e74")
+	)
+	(bus_entry
+		(at 189.23 27.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc43fbb-09b9-4345-9d7f-931e6ac17d96")
+	)
+	(bus_entry
+		(at 73.66 123.19)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dddc933-9905-4b7b-b027-641a0d811b3c")
+	)
+	(bus_entry
+		(at 168.91 27.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d4c4d9-68c9-4e34-a90e-6982d07523fb")
+	)
+	(bus_entry
+		(at 73.66 74.93)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2a9eab-0382-45aa-b80f-a69bc2113980")
+	)
+	(bus_entry
+		(at 129.54 27.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5f6341-6b9b-4129-9758-995a1f7dd785")
+	)
+	(bus_entry
+		(at 87.63 27.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea488000-1475-494e-8429-77420b751981")
+	)
+	(wire
+		(pts
+			(xy 181.61 118.11) (xy 181.61 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016b8036-a6cb-4941-9522-0b1eeb285fda")
+	)
+	(bus
+		(pts
+			(xy 73.66 74.93) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053f74d5-aa8d-483d-9e4a-390e6c7108cf")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0718a353-4120-45c2-80bb-65f1b79ad9cc")
+	)
+	(wire
+		(pts
+			(xy 100.33 69.85) (xy 100.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072e1163-0fe2-425b-be31-9f44fdfde52c")
+	)
+	(wire
+		(pts
+			(xy 201.93 53.34) (xy 205.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbfdeb7-94a6-4a8e-b513-b621e55d5cc7")
+	)
+	(wire
+		(pts
+			(xy 152.4 38.1) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da19110-dc37-42f0-96ac-18084d07086e")
+	)
+	(wire
+		(pts
+			(xy 104.14 134.62) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfd108c-4702-41b2-b4bc-0abe65a9ea63")
+	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0850c1-32e9-4f74-aa0b-e2b4e8bc7dcb")
+	)
+	(wire
+		(pts
+			(xy 201.93 45.72) (xy 201.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117db4a9-2c6a-42bd-8808-44574006509a")
+	)
+	(wire
+		(pts
+			(xy 146.05 53.34) (xy 162.56 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b8b31e-39f2-46e9-9909-ab668885b189")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 205.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17113f90-70a1-4140-a341-8ea711218a7e")
+	)
+	(bus
+		(pts
+			(xy 73.66 30.48) (xy 73.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bdb9a5-e8a9-4ef6-8085-d9338bef719e")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 185.42 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f5d37c-7d7f-458e-a4ff-602717ad2bc4")
+	)
+	(wire
+		(pts
+			(xy 124.46 134.62) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c828a03-670c-4ef9-a230-3b09625996d4")
+	)
+	(wire
+		(pts
+			(xy 120.65 149.86) (xy 124.46 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245fa668-d1ca-4f71-a301-c5e472c18811")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 100.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2561d553-ab51-493e-b4d6-4955241b2b8f")
+	)
+	(wire
+		(pts
+			(xy 132.08 38.1) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2570bb99-f585-402c-8e22-430a13982268")
+	)
+	(wire
+		(pts
+			(xy 146.05 38.1) (xy 146.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25740577-0307-4299-8d70-a116309a1ce1")
+	)
+	(wire
+		(pts
+			(xy 124.46 38.1) (xy 120.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26cf927b-fdc5-497e-8564-e2d878036809")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2700b148-f285-4999-9687-f6e85ad61c42")
+	)
+	(wire
+		(pts
+			(xy 124.46 77.47) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27452a47-d544-4703-8e0e-208d0211a5d5")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a12b08-ddb0-479a-a65e-05b16c198a8f")
+	)
+	(wire
+		(pts
+			(xy 132.08 30.48) (xy 132.08 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a208fc2-5c97-4d99-99ca-e55718aced87")
+	)
+	(wire
+		(pts
+			(xy 100.33 142.24) (xy 100.33 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ada278b-a2c7-4f7b-8db6-b0c35cde1d21")
+	)
+	(wire
+		(pts
+			(xy 104.14 149.86) (xy 120.65 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7881cb-b454-4969-8b5c-375ae204f680")
+	)
+	(wire
+		(pts
+			(xy 162.56 53.34) (xy 166.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7ce690-1ca8-4990-aa48-ddfeecef4b18")
+	)
+	(wire
+		(pts
+			(xy 162.56 69.85) (xy 162.56 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb68189-4baf-4159-93be-51f88c2e4fc9")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.49) (xy 124.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2caf6fb2-7b3b-48f2-b160-fa4021b7aa7b")
+	)
+	(wire
+		(pts
+			(xy 171.45 62.23) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4b609d-3195-41b7-8378-8578ddd47ce3")
+	)
+	(wire
+		(pts
+			(xy 100.33 118.11) (xy 100.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4599d0-e89e-4a1d-be81-e7e8994cfb3f")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e75986f-906b-4597-8774-f84fa5291c33")
+	)
+	(wire
+		(pts
+			(xy 90.17 30.48) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d37eb1-4022-458a-be9b-dd7cedb4de82")
+	)
+	(wire
+		(pts
+			(xy 171.45 38.1) (xy 171.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fbb781-cc28-4daa-a762-16ab53e045ea")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bc3fa8-4e2d-4437-a4ba-f4b7bec7d598")
+	)
+	(wire
+		(pts
+			(xy 76.2 125.73) (xy 100.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dd8b15-fa2b-4e31-871c-c9d379c43b48")
+	)
+	(wire
+		(pts
+			(xy 162.56 125.73) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c9d064-f444-4fef-bdfc-c81dc5aa8680")
+	)
+	(wire
+		(pts
+			(xy 142.24 125.73) (xy 146.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f8bac0-ed8c-4c55-b696-8f1139c80fef")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af7e5bd-044f-4b07-b0a1-755295ed8592")
+	)
+	(wire
+		(pts
+			(xy 104.14 38.1) (xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b882267-e585-4c00-aac1-72e321c43116")
+	)
+	(bus
+		(pts
+			(xy 73.66 27.94) (xy 87.63 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4024f0c5-b7f2-42f2-a95d-eeb8250fc967")
+	)
+	(wire
+		(pts
+			(xy 166.37 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407aed8e-a64f-4812-8a89-f6a772603578")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459cebd8-1906-42bb-8524-ae1f0b882bcc")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46060766-3409-4e3b-ace0-80adbffec7fb")
+	)
+	(wire
+		(pts
+			(xy 104.14 38.1) (xy 100.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c6bef1-24e7-48e2-8606-69ae01189d25")
+	)
+	(wire
+		(pts
+			(xy 181.61 53.34) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48753998-8c7c-4f9e-b300-1fb39fb49888")
+	)
+	(wire
+		(pts
+			(xy 120.65 53.34) (xy 124.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490e750f-58f0-45b4-92c3-824c1c858c8a")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1f3dec-ddff-49ef-90c1-37a9ca94b5e6")
+	)
+	(wire
+		(pts
+			(xy 104.14 77.47) (xy 120.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509c84c2-978f-490c-a07c-71d74e9cced8")
+	)
+	(wire
+		(pts
+			(xy 191.77 86.36) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513d8e91-0a65-4946-8c12-126a7224acab")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 185.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537dc0fc-a6a9-4db6-8f17-4a3e2d94622a")
+	)
+	(wire
+		(pts
+			(xy 142.24 101.6) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a1fd79-5634-4e8b-a3e9-100bd556043c")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550552a1-f6a8-4b48-9c18-09b0a982d91b")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 120.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5597c12d-5c5b-49a2-aef0-8659d6cef5d0")
+	)
+	(wire
+		(pts
+			(xy 76.2 149.86) (xy 100.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e5a707-cbae-4c1f-936f-4d2d64f0294f")
+	)
+	(wire
+		(pts
+			(xy 181.61 125.73) (xy 185.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57481598-eca4-44c8-a18e-09c503ad41b6")
+	)
+	(bus
+		(pts
+			(xy 73.66 99.06) (xy 73.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d628ef-85a4-46cc-ac87-c9031f11dcc1")
+	)
+	(wire
+		(pts
+			(xy 205.74 62.23) (xy 205.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587a950d-92ab-4a17-891f-fb486fe2fe5c")
+	)
+	(bus
+		(pts
+			(xy 149.86 27.94) (xy 168.91 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591120d6-da5d-4214-b973-d7fcc72d804c")
+	)
+	(wire
+		(pts
+			(xy 90.17 110.49) (xy 90.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637d00d6-9d89-4b80-89f8-9c0f078ef8e3")
+	)
+	(wire
+		(pts
+			(xy 142.24 53.34) (xy 146.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bb8861-2abc-4ced-ac0d-f53a129812e4")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cbbbea-d35b-498c-8020-3be1f357e7d4")
+	)
+	(wire
+		(pts
+			(xy 185.42 77.47) (xy 201.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae5b7e6-6602-4606-b932-d8c3b5fa4c47")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 110.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0cb421-ee5a-49b1-90e3-80309a768d9f")
+	)
+	(wire
+		(pts
+			(xy 166.37 62.23) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cebfd9b-9256-451c-accc-afe95aa18ac2")
+	)
+	(wire
+		(pts
+			(xy 152.4 30.48) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d30c544-8b8b-4e09-998d-75fc93dbd8c4")
+	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 185.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7575aaa3-bb53-43da-94c3-49c7fe993e30")
+	)
+	(bus
+		(pts
+			(xy 129.54 27.94) (xy 149.86 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b4e8fe-0a87-4cc9-b0d9-dbfa8cd4408b")
+	)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cbc5c8-f709-41c0-a6b7-4edbd759b5cf")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798f296b-0edc-4caf-a82d-a2fb833a283d")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0bfaad-e7d3-4b00-9f83-625693509bf7")
+	)
+	(wire
+		(pts
+			(xy 146.05 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e035e36-b7d4-41eb-a87b-25f539e8cade")
+	)
+	(wire
+		(pts
+			(xy 201.93 125.73) (xy 205.74 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82751eb6-b151-4085-8fc0-df160b0bea3d")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a61b6a-ec81-4222-9d42-3ecbd9e45a0a")
+	)
+	(wire
+		(pts
+			(xy 124.46 134.62) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bfda47-ddea-455e-abd5-b168368b2220")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.73) (xy 181.61 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887baf0c-6c7c-43b0-b1b2-cb60544c9a73")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89167c3b-ff2e-486d-833f-1c91963d0e8c")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 166.37 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c93195-39e6-4643-8731-8d4e60f47306")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 100.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aea7321-4bba-4186-b6e1-18f4d7471665")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2a7750-5f03-411e-99d9-c60d26bea953")
+	)
+	(wire
+		(pts
+			(xy 185.42 38.1) (xy 185.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7a071a-0d09-4edf-9917-a4b85d06ab9e")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9ca634-2e67-43a5-a738-15dc281627bc")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 100.33 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc1d7c4-e5e6-44b8-ac8a-06ff712fd122")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9b4072-4121-42ec-a420-3cc7c99a32b6")
+	)
+	(wire
+		(pts
+			(xy 166.37 53.34) (xy 181.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4070ee-466a-411c-97ae-6a95097be148")
+	)
+	(wire
+		(pts
+			(xy 191.77 38.1) (xy 191.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6ae8ed-5195-4459-b454-090098fc5653")
+	)
+	(bus
+		(pts
+			(xy 73.66 50.8) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cab37c-efea-4ccb-86eb-99aa36bca4cb")
+	)
+	(wire
+		(pts
+			(xy 162.56 118.11) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94126013-edd2-4886-a8fe-08eb0d8cbe4d")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95074328-285f-46e3-b071-fb1f276171c9")
+	)
+	(wire
+		(pts
+			(xy 124.46 62.23) (xy 120.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950f761b-87ac-4a90-a80c-e912088ebea5")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e18007-15f7-493d-a302-3ffd6e11c7cc")
+	)
+	(wire
+		(pts
+			(xy 124.46 62.23) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980ac7f3-4b15-4743-899f-d87b41755f67")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99db7d53-4f8b-4679-8cbe-002084f39d3e")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0aac99-fff6-48ed-bea7-0e9964537f05")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a139fb2-1139-49e8-8f9d-434ddef24132")
+	)
+	(wire
+		(pts
+			(xy 205.74 62.23) (xy 201.93 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f72ebc5-670f-45c5-8ccc-be70d8fda664")
+	)
+	(wire
+		(pts
+			(xy 201.93 101.6) (xy 205.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07c2054-bf93-4c7b-9d5d-a89d8733f6a1")
+	)
+	(wire
+		(pts
+			(xy 100.33 77.47) (xy 104.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60d6b3c-2623-4866-a338-7098b04c63bc")
+	)
+	(wire
+		(pts
+			(xy 142.24 45.72) (xy 142.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f4ac3c-4a12-4d66-8492-8344f7a6be99")
+	)
+	(wire
+		(pts
+			(xy 201.93 77.47) (xy 205.74 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0f0e46-bb7c-4114-91a0-0d6ed0a6971f")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 120.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7db151-4f27-408e-8060-f9256d0cca00")
+	)
+	(wire
+		(pts
+			(xy 110.49 30.48) (xy 110.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada0c29c-6b40-4f0c-aaca-ee798f07777a")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1b1652-d625-4467-a0c0-1ceb16df8838")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb45bc9-d12c-4d42-bdcb-1beabed33e31")
+	)
+	(wire
+		(pts
+			(xy 205.74 110.49) (xy 201.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0da47c4-ab9c-416e-be7d-43a377f29ab1")
+	)
+	(bus
+		(pts
+			(xy 107.95 27.94) (xy 129.54 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e76923-1d96-4a72-99b8-f3ceb0f5cdb0")
+	)
+	(wire
+		(pts
+			(xy 166.37 77.47) (xy 181.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4db836c-4a6b-405a-a665-907de82fe363")
+	)
+	(wire
+		(pts
+			(xy 124.46 53.34) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50bb640-057e-44cb-bec7-433edcad56e1")
+	)
+	(wire
+		(pts
+			(xy 201.93 93.98) (xy 201.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88bfb0c-f34b-4318-885f-cb82fac9a403")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 104.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c0cd0b-02f1-490e-a68c-ed57a5b0bbac")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9edb002-ff75-449c-8909-b992bc4f1eb2")
+	)
+	(wire
+		(pts
+			(xy 146.05 38.1) (xy 142.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba380315-4cb8-45c5-8c64-d14eb87bf726")
+	)
+	(wire
+		(pts
+			(xy 100.33 149.86) (xy 104.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf9a5df-277c-400e-97d6-191536a18c05")
+	)
+	(wire
+		(pts
+			(xy 120.65 45.72) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1bed73-50d1-47e4-a223-75274b43152f")
+	)
+	(wire
+		(pts
+			(xy 181.61 77.47) (xy 185.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0eba625-c4c1-4a8b-8432-9fc60ebfd876")
+	)
+	(wire
+		(pts
+			(xy 171.45 86.36) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2749925-0e5d-433c-92da-1fce2173b3e4")
+	)
+	(wire
+		(pts
+			(xy 110.49 38.1) (xy 110.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2917d40-9f40-4a9c-acfc-c1fda5c674d1")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 162.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f38b80-7245-4312-bd84-f059f56915d0")
+	)
+	(wire
+		(pts
+			(xy 104.14 134.62) (xy 104.14 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50bc3e8-6035-4f0b-bb6c-34336227fb86")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 100.33 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57ff073-6d29-42b4-8ca7-486a1afdc336")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c789df52-6824-44e9-bd01-4be3c49d947a")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 205.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8934840-dc61-48b1-9a43-bead89c24c66")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c942c6a4-a8b3-4e90-a655-6473b11b4f00")
+	)
+	(wire
+		(pts
+			(xy 205.74 110.49) (xy 205.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca179600-43b4-4065-a312-d2a61ea289da")
+	)
+	(wire
+		(pts
+			(xy 104.14 125.73) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbec25f-60c9-41f0-b486-42533947b102")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cccb0975-b69a-4f34-9551-2ae18821183d")
+	)
+	(wire
+		(pts
+			(xy 120.65 77.47) (xy 124.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4f76a5-ebf3-4862-a29b-c1496fee0787")
+	)
+	(wire
+		(pts
+			(xy 120.65 142.24) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfacb0da-838c-4538-af41-9d12dc773616")
+	)
+	(wire
+		(pts
+			(xy 181.61 69.85) (xy 181.61 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d007e7fd-1139-4246-978c-1a242b593640")
+	)
+	(wire
+		(pts
+			(xy 132.08 62.23) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25db020-e3b9-43ab-a2b9-b5a0ddb35ea6")
+	)
+	(wire
+		(pts
+			(xy 124.46 125.73) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41211dc-7c6f-4d2d-89bc-f996567cb443")
+	)
+	(wire
+		(pts
+			(xy 171.45 30.48) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d448817a-3927-4197-bc2d-1cd42646f310")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 181.61 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d350f2-addb-4aa6-b779-1cff8b95032b")
+	)
+	(bus
+		(pts
+			(xy 73.66 123.19) (xy 73.66 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79d0b2d-f82e-4db4-9034-40a5747ffb7c")
+	)
+	(wire
+		(pts
+			(xy 201.93 69.85) (xy 201.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da150d0d-e59f-40ba-a7d1-ae68d4666bd0")
+	)
+	(wire
+		(pts
+			(xy 100.33 125.73) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da216795-a024-4137-854d-d77bf271dd26")
+	)
+	(wire
+		(pts
+			(xy 162.56 77.47) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc33afc1-0ad8-4f49-89e0-b3aefa8a5f4e")
+	)
+	(wire
+		(pts
+			(xy 191.77 30.48) (xy 191.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2983cc-5da5-4cdf-8bbc-15abdde184ad")
+	)
+	(wire
+		(pts
+			(xy 120.65 118.11) (xy 120.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd772f64-0baa-464d-92d6-c4cdfd8a5d1c")
+	)
+	(wire
+		(pts
+			(xy 90.17 86.36) (xy 90.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd97d1ff-b477-4dc3-bbf2-8ba2fad27c0b")
+	)
+	(wire
+		(pts
+			(xy 185.42 125.73) (xy 201.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddea6450-95d5-4e5e-99a5-894e2771b25a")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 162.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfd599e-9fdf-40a5-82ca-e857c0faea89")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 181.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18133a8-bc5d-4cd2-829b-c49a070fc7e5")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e470bb58-ccce-4b2e-a249-3c6334e9516d")
+	)
+	(wire
+		(pts
+			(xy 146.05 77.47) (xy 162.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e685a6e4-be9c-44d0-a32c-2b2fb9a6bb1f")
+	)
+	(wire
+		(pts
+			(xy 142.24 118.11) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7059e3e-e162-4e04-a4ed-52bbefd4ca8c")
+	)
+	(wire
+		(pts
+			(xy 166.37 62.23) (xy 162.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72627a6-ffdc-433b-87f1-8648344711d8")
+	)
+	(wire
+		(pts
+			(xy 185.42 38.1) (xy 181.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a65f01-b792-4969-9e46-374b793232d1")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 162.56 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80613be-ebb2-43ea-941b-0cbb304d193b")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 104.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c58986-7fbd-48b3-8072-aec4adeaeb02")
+	)
+	(wire
+		(pts
+			(xy 181.61 93.98) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96c0123-57cd-48c3-ac67-efabea5601d1")
+	)
+	(wire
+		(pts
+			(xy 185.42 53.34) (xy 201.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea57586b-f6c0-407e-bbce-aba5d1d577c0")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 132.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea74e04a-7f99-4931-987b-e5d57c8a9c11")
+	)
+	(wire
+		(pts
+			(xy 162.56 45.72) (xy 162.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed129217-7a42-4d81-9768-3de2aeaa7adf")
+	)
+	(bus
+		(pts
+			(xy 168.91 27.94) (xy 189.23 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5545db-1784-43eb-8f7f-807a09c252e2")
+	)
+	(wire
+		(pts
+			(xy 166.37 101.6) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f032140c-3f7b-4846-85a5-813802cbd991")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cf0217-6dec-432a-a659-7c88e73a0e9f")
+	)
+	(wire
+		(pts
+			(xy 166.37 86.36) (xy 166.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29e0e5e-edca-4948-b918-e29cd1bcac44")
+	)
+	(wire
+		(pts
+			(xy 185.42 101.6) (xy 201.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52f4f63-a9ac-4d8f-914f-5164e724bc4b")
+	)
+	(wire
+		(pts
+			(xy 181.61 45.72) (xy 181.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f534d21e-ac53-4de4-aae5-919cf0ac6b57")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 100.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f5cc9b-181d-40fa-842e-931fa2c6fd3d")
+	)
+	(wire
+		(pts
+			(xy 124.46 38.1) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70ec896-c059-4339-84e0-c9f9c9810d8d")
+	)
+	(bus
+		(pts
+			(xy 87.63 27.94) (xy 107.95 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f12daf-f3e7-4405-9722-973cd13edc89")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 142.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d4e415-add2-4765-9f65-40dabf0c27cc")
+	)
+	(wire
+		(pts
+			(xy 191.77 62.23) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa302ebc-a8bc-4e5c-8b05-59c67fb9d0da")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6d6022-a7a2-47ae-8466-bd4f9a06fd9d")
+	)
+	(wire
+		(pts
+			(xy 201.93 118.11) (xy 201.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd75c3d-902e-4149-8057-8418c87ece5f")
+	)
+	(wire
+		(pts
+			(xy 100.33 93.98) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6b5820-c734-43f7-9c22-1976362508e3")
+	)
+	(label "M_ROW1"
+		(at 76.2 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14aa2922-2b24-47b5-ac9b-7994131f0273")
+	)
+	(label "M_COL[0..5]"
+		(at 73.66 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2db5ec9b-d1d6-428b-9285-16e7eca652a4")
+	)
+	(label "M_COL4"
+		(at 171.45 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fee0e6a-1167-4bcf-99ea-b58dbaa271b1")
+	)
+	(label "M_COL1"
+		(at 110.49 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3764de01-f19d-44af-aa39-467acbbc3342")
+	)
+	(label "M_ROW2"
+		(at 76.2 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ff9e881-163f-4aac-8691-6a72bb18ac8d")
+	)
+	(label "M_ROW3"
+		(at 76.2 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bd39c69-12b9-4b04-8c0c-e4e366ed6f7f")
+	)
+	(label "M_ROW[0..4]"
+		(at 73.66 31.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e507c93-4acd-4e7d-82bb-2771e0a92250")
+	)
+	(label "M_COL0"
+		(at 90.17 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "604ab48f-c711-4a7f-8b70-3815a3b28632")
+	)
+	(label "M_COL2"
+		(at 132.08 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85cc12a2-c426-4f47-9328-8de42ae4c762")
+	)
+	(label "M_COL3"
+		(at 152.4 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88017d3b-cc59-4fe4-a322-cbb04bfca5ec")
+	)
+	(label "M_ROW0"
+		(at 76.2 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9356aff5-5788-4c49-af01-50ae043ab09a")
+	)
+	(label "M_ROW4"
+		(at 76.2 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c72e021f-14b2-4f02-8e6e-46b602b0af1c")
+	)
+	(label "M_COL5"
+		(at 191.77 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e60dbdd7-b631-447d-a543-e366ffead066")
+	)
+	(hierarchical_label "M_COL[0..5]"
+		(shape input)
+		(at 73.66 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e2b508f-d309-4353-816d-7b0f3759971c")
+	)
+	(hierarchical_label "M_ROW[0..4]"
+		(shape input)
+		(at 73.66 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b752fe86-5e8d-43c9-8be5-f17620bc6387")
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 95.25 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "023c4c9d-64c6-4ffa-8b7f-c55418c984e4")
+		(property "Reference" "SW7"
+			(at 94.615 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 94.615 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90d020a4-dc05-431b-97af-fa627d8615f8")
+		)
+		(pin "2"
+			(uuid "b21725bb-70a3-465f-8192-b6d72bf676a6")
+		)
+		(pin "3"
+			(uuid "4c12a294-7d93-451e-bd32-e41387782b00")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 162.56 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04827801-0094-441a-9664-cacd504d8bb2")
+		(property "Reference" "D19"
+			(at 160.02 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 160.02 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8333718-092b-47ac-9433-f2d22d2239ac")
+		)
+		(pin "2"
+			(uuid "468b2c57-541c-47f2-be92-43bf4ff7c35e")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 181.61 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0559a00d-3f42-4285-9cd0-d09e4c337639")
+		(property "Reference" "D9"
+			(at 179.07 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 179.07 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4abf865f-9a5b-42f4-90b5-650ca01e7801")
+		)
+		(pin "2"
+			(uuid "533f873a-79e8-4133-a401-917bdfa36b03")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 185.42 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "088b6c84-b7ce-4fe7-adb1-1054edb3d01b")
+		(property "Reference" "D34"
+			(at 187.96 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 187.96 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcccbc37-f1c9-4f77-a89b-00d86c6b5b1d")
+		)
+		(pin "2"
+			(uuid "6bab6cdd-db8f-41d4-937c-8439c15a6fb4")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 120.65 146.05 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a9f0cd8-2359-43eb-bf1e-2d9cbb5fe3f6")
+		(property "Reference" "D51"
+			(at 118.11 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 118.11 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a89f6d49-2dda-4d7d-bb3d-5fe93bb2a2d3")
+		)
+		(pin "2"
+			(uuid "e8a0d2a9-2aab-4170-8dcb-f0cc90fdb36d")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 191.77 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1020a406-6c3d-4f2a-baca-7b3c27ad6fce")
+		(property "Reference" "COL5"
+			(at 185.674 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 193.04 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 196.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9becfc1d-33d3-42dc-a7af-e4f14e59afe4")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "COL5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 100.33 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12396137-979e-4923-ba42-af0f907c2587")
+		(property "Reference" "D1"
+			(at 97.79 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 97.79 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "069998b3-0804-46b9-9530-5e3ddf69a617")
+		)
+		(pin "2"
+			(uuid "d12d0f2b-7366-44e3-9d13-c1665fa94bb1")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 100.33 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "144a054b-4c45-430c-b027-d74abcacf778")
+		(property "Reference" "D25"
+			(at 97.79 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 97.79 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08e2ad1e-be48-40b9-920d-0e8e7aa338bd")
+		)
+		(pin "2"
+			(uuid "8bbaa5ee-e181-4947-8c6d-5d1ea4e5b012")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 76.2 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17afd1c8-c3b9-4913-8873-c79cd96973af")
+		(property "Reference" "ROW0"
+			(at 77.216 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 77.47 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa42f08e-c788-4d3f-9f67-e77214175d48")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "ROW0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 142.24 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d2af93c-e08a-46b0-bfb7-d374226839cb")
+		(property "Reference" "D17"
+			(at 139.7 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 139.7 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3b592b4-3298-43b9-b34c-0eb255bf3ade")
+		)
+		(pin "2"
+			(uuid "9b2b7936-d4d3-4664-846d-66301f12eaf9")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 166.37 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20a2a01b-9c2b-4794-b721-5d94b0b0dfd5")
+		(property "Reference" "D20"
+			(at 168.91 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 168.91 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecb5e3b6-7856-4647-b0b3-daddedaeb340")
+		)
+		(pin "2"
+			(uuid "247ce8a9-f709-41ac-8921-d92642e57bec")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 201.93 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "235c5f63-fff9-4d79-bf6b-8423ba7cbb7c")
+		(property "Reference" "D23"
+			(at 199.39 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 199.39 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "783e8b0d-0e8f-41a6-a699-793fcb352871")
+		)
+		(pin "2"
+			(uuid "1536d7ea-e7ac-449b-a200-0ca188c7888b")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 95.25 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a32641-19fc-416a-8576-f51721293f20")
+		(property "Reference" "SW13"
+			(at 94.615 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 94.615 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb578e77-6f5e-41e7-ba0f-3ea86bcc8bff")
+		)
+		(pin "2"
+			(uuid "61bd9ce4-d607-49e5-8413-98af0b7d8ffc")
+		)
+		(pin "3"
+			(uuid "1ca2e427-0f9c-4965-91f0-e16eb7e0393c")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 137.16 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25da4adf-a375-4296-a5a1-f4fb92a0601f")
+		(property "Reference" "SW3"
+			(at 136.525 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 136.525 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 137.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe6905ad-e622-49d4-8c71-087b24d1e4fe")
+		)
+		(pin "2"
+			(uuid "c6a9f5c4-aa41-4cc1-b5bf-eb9ae05a878c")
+		)
+		(pin "3"
+			(uuid "739f95cc-f6d2-47c9-81df-e0044b78d340")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 104.14 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b30ce2-2423-4e3f-8b5a-021b7cb69d2e")
+		(property "Reference" "D38"
+			(at 106.68 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 106.68 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6739083-aadd-4b6a-90f7-c88a3d9bbbed")
+		)
+		(pin "2"
+			(uuid "84c911c1-704c-4fb2-aa8d-cdb4b4768aa0")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 115.57 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27d1a07a-ae0a-4a6b-a383-74a1b9755953")
+		(property "Reference" "SW2"
+			(at 114.935 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 114.935 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ea17306-ebec-4389-839c-d8146db6deea")
+		)
+		(pin "2"
+			(uuid "1f6a7e85-895a-411e-bcfc-4397e6691756")
+		)
+		(pin "3"
+			(uuid "e124bcdb-2412-4676-a87a-d5d5afa7f5bd")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 166.37 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28518576-4e2a-4bc8-be8e-6c208c0afb3c")
+		(property "Reference" "D8"
+			(at 168.91 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 168.91 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6221b8b-b879-4890-acaf-4315f92c008e")
+		)
+		(pin "2"
+			(uuid "66593a37-2105-457e-9cc5-565caaf15f54")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 120.65 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c943729-e5b8-4241-a555-1e9616247fa4")
+		(property "Reference" "D27"
+			(at 118.11 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 118.11 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fbdce1f-4a79-4216-8dfb-ecca961be2a9")
+		)
+		(pin "2"
+			(uuid "a3b8d499-0de2-499b-ad60-4bb7094a46f9")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 205.74 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d74807a-36b4-400b-874b-1ae5c25cf044")
+		(property "Reference" "D48"
+			(at 208.28 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 208.28 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "503f5311-7d4c-423f-8ce2-d6314dc973de")
+		)
+		(pin "2"
+			(uuid "1c5e7de3-b5b3-4bd8-bec3-08f3b1aac47f")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 142.24 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2eda8d19-4561-4688-a20c-f0cc06b4b53d")
+		(property "Reference" "D29"
+			(at 139.7 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 139.7 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aca72cd-6de1-42f9-adea-213c59be1336")
+		)
+		(pin "2"
+			(uuid "dc3d5ec0-3a21-4b52-96ea-ba993e5991c7")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 201.93 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "300940c0-f7e3-4eda-9b2f-d2cee4b9ee6e")
+		(property "Reference" "D11"
+			(at 199.39 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 199.39 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63a85b40-f23f-41a7-8a39-079a9bba6348")
+		)
+		(pin "2"
+			(uuid "d9764db4-c90f-4092-9f04-dd5c74c0888e")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 176.53 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35226698-64f6-4403-8e3d-3e1a4152476e")
+		(property "Reference" "SW17"
+			(at 175.895 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 175.895 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cb600f2-293e-46ff-8916-e247f2069b87")
+		)
+		(pin "2"
+			(uuid "b7b20d0a-449a-48c7-a199-6a07b3b3c7c1")
+		)
+		(pin "3"
+			(uuid "a6581331-61ca-4203-bb2a-f72ae5aaebb4")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 157.48 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35617d5a-20c0-49a8-b6b2-5f0c1a23959c")
+		(property "Reference" "SW10"
+			(at 156.845 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 156.845 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eda36a5-3501-43c6-944d-3687cfba35c4")
+		)
+		(pin "2"
+			(uuid "92153ece-2bac-43a0-9eed-8052c1f8f2b0")
+		)
+		(pin "3"
+			(uuid "44b0bf39-9b28-471d-a018-c762721d6b9d")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 162.56 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b0a70fd-df4c-4154-8ba0-cbf04ebd789b")
+		(property "Reference" "D7"
+			(at 160.02 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 160.02 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b33226b-4d9f-4ad4-b6ae-a7df1f447486")
+		)
+		(pin "2"
+			(uuid "f2e87fa9-6e14-4d9d-bb55-6f465ed29b0b")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 146.05 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "407a74cf-49c6-46c3-9d96-9627ed351ad7")
+		(property "Reference" "D18"
+			(at 148.59 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 148.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5b44362-96ab-4189-84f2-0c7bcf629a37")
+		)
+		(pin "2"
+			(uuid "e990cc6f-2dd0-492b-9b0f-d705f609ab17")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 157.48 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40f94d86-d368-407d-844a-e6a84392d34b")
+		(property "Reference" "SW16"
+			(at 156.845 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 156.845 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f725cfa3-623f-4082-81d2-39634d006424")
+		)
+		(pin "2"
+			(uuid "b3bbe262-b4b7-4a50-a4c9-cc3442955340")
+		)
+		(pin "3"
+			(uuid "b9e1a94d-b4d4-4f01-89f2-ad3206b5c5b8")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 115.57 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48226ca3-7d59-4e01-9a5a-c8dea9d5ea23")
+		(property "Reference" "SW20"
+			(at 114.935 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 114.935 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c84c9bcb-674d-4630-905b-95027e71200f")
+		)
+		(pin "2"
+			(uuid "0b072f31-f0b7-4376-a32b-4ff425d4d346")
+		)
+		(pin "3"
+			(uuid "cfde253b-69ca-4148-9ddb-8b9d2e389e8c")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 185.42 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a4798b3-d95a-4496-a236-2e82907471e1")
+		(property "Reference" "D10"
+			(at 187.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 187.96 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f9fdc2f-2729-4bfe-a97f-13accbeb50a3")
+		)
+		(pin "2"
+			(uuid "c10d1ae5-e0c6-48a6-86da-09b0ad235406")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 76.2 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50a56a50-486d-4fad-ad8f-9921e41a1701")
+		(property "Reference" "ROW1"
+			(at 77.216 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 77.47 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6364d857-13c5-491e-a576-0706636f829c")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "ROW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 162.56 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5859532a-9c59-483d-8c4f-a756c9b3dd85")
+		(property "Reference" "D31"
+			(at 160.02 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 160.02 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efa2e4ef-48d1-4448-af22-9f1b10d6c2f3")
+		)
+		(pin "2"
+			(uuid "5c1b0a75-4ad5-4514-87e9-b8cf8d692410")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 95.25 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58d1258a-5d7a-45c9-87ee-513c5fbe65cb")
+		(property "Reference" "SW1"
+			(at 94.615 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 94.615 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 95.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce07a788-5957-4e74-9201-4af0f37a8306")
+		)
+		(pin "2"
+			(uuid "911e863d-9266-4928-bef7-20e7ecd03ab2")
+		)
+		(pin "3"
+			(uuid "dc5e73fb-e218-44be-894f-8c6c5950ab51")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 146.05 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58e4e54f-44ef-4318-97ef-4f3e79beb3dc")
+		(property "Reference" "D6"
+			(at 148.59 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 148.59 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5722b099-5c89-422f-ac34-046ae743c4a3")
+		)
+		(pin "2"
+			(uuid "16a7b300-d7cb-4e50-bba4-74ed159d8b0d")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 181.61 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "599949c8-3d85-4668-bdca-509c3679a2f8")
+		(property "Reference" "D45"
+			(at 179.07 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 179.07 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5151a369-5edc-4805-9645-66d140d535d9")
+		)
+		(pin "2"
+			(uuid "5fa2300c-3c90-4c30-b321-0fd84cf74461")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 205.74 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ccc633b-d1c9-4584-a5a2-783e3540f7e3")
+		(property "Reference" "D36"
+			(at 208.28 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 208.28 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdfced1f-6de5-4971-aa00-e6c87ad870a9")
+		)
+		(pin "2"
+			(uuid "98913153-810f-4078-adbc-25c52a0ab12d")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 90.17 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f980417-5f13-410c-b7fd-15f4077258b5")
+		(property "Reference" "COL0"
+			(at 84.074 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 91.44 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 95.25 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a05227b5-4e58-4aa1-a0e2-522d7603fa36")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "COL0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 201.93 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61dd07f7-ee94-4c6f-8aed-050530c46432")
+		(property "Reference" "D47"
+			(at 199.39 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 199.39 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ed5396-f20d-444a-b4a4-80afdf5c8cfc")
+		)
+		(pin "2"
+			(uuid "1575cd9b-8519-442c-adf7-33d7e3e563c7")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 196.85 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f25717-6ef6-4eef-9a7b-dba3b0d6616c")
+		(property "Reference" "SW24"
+			(at 196.215 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 196.215 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e1e6aa7-e6fd-4a93-9e25-99f5c2f8f2bd")
+		)
+		(pin "2"
+			(uuid "20418eec-b3fe-4de9-a5a3-77e0f27427d0")
+		)
+		(pin "3"
+			(uuid "fc61d258-dfb6-4ecb-a9de-f44aca22c06f")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 95.25 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66c7c967-fdf7-46a1-9fa2-3537b5d06c46")
+		(property "Reference" "SW25"
+			(at 94.615 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 94.615 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11856950-5af1-44fa-89e8-808950886a5b")
+		)
+		(pin "2"
+			(uuid "8f83f04b-a260-4d37-a717-5ec9237d7356")
+		)
+		(pin "3"
+			(uuid "9017a1c5-8cb0-4502-ba39-0ecc3154e969")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 185.42 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b7b579d-4120-4231-b4a2-fbc3dd9f75ee")
+		(property "Reference" "D22"
+			(at 187.96 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 187.96 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd9e089c-44e3-4962-8877-6177e3d32b2a")
+		)
+		(pin "2"
+			(uuid "14cd6cb5-c49d-42e1-8c7f-7f19f34a41c9")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 100.33 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bcfcdfb-42c2-406b-9aaf-d663c2f81e38")
+		(property "Reference" "D37"
+			(at 97.79 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 97.79 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "590cccc9-cce4-4255-af87-477347bbd5fc")
+		)
+		(pin "2"
+			(uuid "fd7e00a8-04f1-421c-9ba3-982e8a3b0ee0")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 196.85 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e9a4ef4-90f4-4c4d-9e9a-e93a8f2d0b3d")
+		(property "Reference" "SW12"
+			(at 196.215 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 196.215 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 196.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61576f96-79a4-45d8-9cc5-06cddee925ca")
+		)
+		(pin "2"
+			(uuid "e160764c-3573-4c73-9f69-ad8b47178fc7")
+		)
+		(pin "3"
+			(uuid "f668a944-2700-4cef-94ce-950136fc3e24")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 115.57 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fc48832-b534-40e5-94ea-bc129f162759")
+		(property "Reference" "SW14"
+			(at 114.935 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 114.935 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912733f5-b2b4-439e-8ebb-faa61691020f")
+		)
+		(pin "2"
+			(uuid "1bf1ff4f-db4e-47fc-bfb1-aefd4314f021")
+		)
+		(pin "3"
+			(uuid "124d1605-ffc2-49c9-b127-4b4a1c0b9a28")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 162.56 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "721ee178-4049-4d58-874f-9ef184a7f0e0")
+		(property "Reference" "D43"
+			(at 160.02 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 160.02 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26ff0cb2-67ab-45f5-9b20-0ddeee90ca16")
+		)
+		(pin "2"
+			(uuid "9513acf8-ce9e-4fc7-a3ab-b2117572789b")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 137.16 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75800ac7-4813-4ec9-90b3-8eba90454d45")
+		(property "Reference" "SW15"
+			(at 136.525 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 136.525 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e210c61-b602-4378-b006-94b852c0c99a")
+		)
+		(pin "2"
+			(uuid "fceadc33-d337-452c-92f8-fee5c4d96545")
+		)
+		(pin "3"
+			(uuid "d57344f3-47ca-4dc7-b38b-14459161c665")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 124.46 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "770565cb-5283-4cc7-880f-a63c26901678")
+		(property "Reference" "D16"
+			(at 127 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 127 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "355e9ce8-a86a-42c0-982a-c59985d663f4")
+		)
+		(pin "2"
+			(uuid "03308190-795d-43cf-9156-cffcd4dd6548")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 181.61 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77269d6d-2ddd-47f5-b5aa-bd8cb9c1c00b")
+		(property "Reference" "D21"
+			(at 179.07 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 179.07 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dd19898-beb1-4d86-bc7a-49fe960ef3fe")
+		)
+		(pin "2"
+			(uuid "427797b7-a315-4af4-ac4a-34d7cb8b64cd")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 124.46 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c0547c7-2d93-441a-afa6-2870b5bf6c28")
+		(property "Reference" "D52"
+			(at 127 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 127 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff9e44aa-830d-4c27-8ea8-aaef82012d80")
+		)
+		(pin "2"
+			(uuid "c1ba4839-55d5-453a-9d4f-d9336dbde66a")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 124.46 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88bda4df-7df5-4757-ac28-2dd9c5995fa9")
+		(property "Reference" "D28"
+			(at 127 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 127 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1a66b9c-ae2b-4349-953d-6efb333e7bfa")
+		)
+		(pin "2"
+			(uuid "d17db700-dc6e-434f-a7ab-4cce4253159b")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 157.48 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cc93858-03a2-466a-a687-d9c9ca0bc394")
+		(property "Reference" "SW22"
+			(at 156.845 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 156.845 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 157.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9ad8576-a0c6-4e3d-85d5-25b71d127a12")
+		)
+		(pin "2"
+			(uuid "5ecb94ce-3454-4b15-a27c-fb11097fa238")
+		)
+		(pin "3"
+			(uuid "6f04a78c-d0dd-42a3-b60e-7d6d7c5734a0")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 104.14 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d53e67c-90d9-4383-9924-05b8d3ec3b19")
+		(property "Reference" "D50"
+			(at 106.68 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 106.68 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33064942-4c3f-4ca6-b06e-b0e089160b04")
+		)
+		(pin "2"
+			(uuid "3840776f-4c52-4a17-8b50-e04e413706fa")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 137.16 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ecacb74-b628-45c3-92ea-09a239bbff0d")
+		(property "Reference" "SW9"
+			(at 136.525 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 136.525 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "509f30b3-b04c-44cd-a73c-bde0a72df823")
+		)
+		(pin "2"
+			(uuid "823f2247-ec94-4739-990e-0bd66152a468")
+		)
+		(pin "3"
+			(uuid "56df6f04-44d9-4b34-8d56-29f95e3af42e")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 205.74 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94561723-c997-4a3f-b8b4-d72e82c2e9c4")
+		(property "Reference" "D12"
+			(at 208.28 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 208.28 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a014b2-c3f0-4075-a6dc-6731b102700e")
+		)
+		(pin "2"
+			(uuid "b72b1a9a-ba89-497e-a748-5cbd1b2b019a")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 176.53 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "963c087a-bcf2-4b1a-9765-8573deab762d")
+		(property "Reference" "SW11"
+			(at 175.895 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 175.895 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 176.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b22f4104-edf1-4388-9622-21d48ef0abe1")
+		)
+		(pin "2"
+			(uuid "242fa040-9e19-48a9-a6fb-4e5c3b191739")
+		)
+		(pin "3"
+			(uuid "0f4547d4-0b0e-46e7-9352-ce18837ee78b")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 115.57 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "964b0500-2f5d-4ca9-8a46-7d8d29f227f5")
+		(property "Reference" "SW26"
+			(at 114.935 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 114.935 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 115.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f838ab6-e9ea-4af0-b128-29dc44c1d9d8")
+		)
+		(pin "2"
+			(uuid "8491d0cd-389c-4427-bfdc-d03c99fb4401")
+		)
+		(pin "3"
+			(uuid "2c14f14c-6d32-407c-842e-602201fa1c8f")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 201.93 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b3b33f5-07ea-4581-999d-fc5febc2fc39")
+		(property "Reference" "D35"
+			(at 199.39 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 199.39 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7cdbbee-6f20-46c0-af69-45a824f0f31f")
+		)
+		(pin "2"
+			(uuid "78dc8cfe-7af1-41d9-b659-93ee9dc5d52b")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 142.24 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cd1ed78-80b5-43fd-94c6-f6729ce36427")
+		(property "Reference" "D5"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 139.7 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d7607b-17ff-401a-a2fe-ed5d32b89bd9")
+		)
+		(pin "2"
+			(uuid "49050932-381e-46b1-a84b-6868bc6eb0fe")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 176.53 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff44d13-5540-4046-bb88-b181cfd7fcba")
+		(property "Reference" "SW23"
+			(at 175.895 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 175.895 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a4d1e61-6afe-4cb2-a686-2132d6148008")
+		)
+		(pin "2"
+			(uuid "d3bf9f69-17a0-4e3a-b6fe-b26d74b592fd")
+		)
+		(pin "3"
+			(uuid "4b4307bf-5d71-444b-bab8-d1e377bb5ede")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 146.05 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a375afc4-3862-4c36-a967-369eab6dd092")
+		(property "Reference" "D42"
+			(at 148.59 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 148.59 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d3d7c01-e9cc-4fc2-9f85-d1c62f072385")
+		)
+		(pin "2"
+			(uuid "510bfe8d-8a6c-421b-8bbe-fa5a411e741f")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 95.25 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4b43d54-6f10-41b7-b579-6892d34fc45d")
+		(property "Reference" "SW19"
+			(at 94.615 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 94.615 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d7186c5-abe5-4d33-b389-45eb9d072b02")
+		)
+		(pin "2"
+			(uuid "31d1c463-9b17-4229-ba37-25aa45bd0d16")
+		)
+		(pin "3"
+			(uuid "b8d31c48-c38d-4a9f-9271-e5227edef342")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 120.65 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7b72981-57d5-4d2b-b772-6ff5fc909f02")
+		(property "Reference" "D15"
+			(at 118.11 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 118.11 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da288fa3-1ef2-42d5-9d78-ea4bdd4a9068")
+		)
+		(pin "2"
+			(uuid "7c879f0a-7264-4086-b0a6-bc73e1f17204")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 176.53 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd831ba-70f6-4e0c-8252-6e34e8632201")
+		(property "Reference" "SW5"
+			(at 175.895 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 175.895 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4bbc99d-9aa8-46f8-86d0-92ea6508cfec")
+		)
+		(pin "2"
+			(uuid "e569e617-865a-4478-8638-abcd87abdbc9")
+		)
+		(pin "3"
+			(uuid "ea5af755-7812-40c1-89b8-9e7445a04927")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 120.65 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad885e70-a23b-47bb-bb38-8dea8ae2e8b2")
+		(property "Reference" "D39"
+			(at 118.11 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 118.11 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1153e181-7063-44be-aaaa-4aa0bd7e2fe1")
+		)
+		(pin "2"
+			(uuid "77d4d9b3-e102-4b98-bb6a-fd583905048a")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 124.46 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b064cc83-ec28-4908-9266-470fcf636518")
+		(property "Reference" "D4"
+			(at 127 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 127 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f36b4bc-6274-42fb-9c42-32b4742fcfd2")
+		)
+		(pin "2"
+			(uuid "d33c5385-73c1-463a-88b7-e2ca05f9c7eb")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 104.14 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1e340eb-8ace-4106-b338-dfd8a87226d0")
+		(property "Reference" "D14"
+			(at 106.68 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 106.68 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c7ae63b-4653-4c2f-b969-fea87d01624a")
+		)
+		(pin "2"
+			(uuid "4551427d-151e-43bb-a709-ba2a3c89d8b7")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 124.46 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2546f50-535b-433c-93b8-df967a76f633")
+		(property "Reference" "D40"
+			(at 127 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 127 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78a3f8c0-2512-48f3-927e-a3c79661a091")
+		)
+		(pin "2"
+			(uuid "56513409-cdf4-488b-872d-4dd2c4b17ada")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 166.37 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba2b26bc-de6f-43b7-b1a1-df089b94d711")
+		(property "Reference" "D32"
+			(at 168.91 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f61a5972-6eaf-4b54-a620-249551f0498b")
+		)
+		(pin "2"
+			(uuid "c4edc142-3d83-4769-9ba6-9bfa838bb1fe")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 181.61 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bda227b8-47f1-4fa6-8177-aed63921f0d5")
+		(property "Reference" "D33"
+			(at 179.07 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 179.07 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a62722a-4a9c-4304-9b9a-f7abf3991400")
+		)
+		(pin "2"
+			(uuid "62b64414-c11e-4b6d-aa7e-0a108ca237f2")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 142.24 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c307979c-599b-452e-8f72-3ad8bde6b360")
+		(property "Reference" "D41"
+			(at 139.7 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 139.7 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c6c2176-b692-4d27-a381-0c233081e459")
+		)
+		(pin "2"
+			(uuid "88d48304-486f-43ac-8ba7-e72a9547cb0f")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 166.37 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c442ff5b-f0ca-471e-aa1f-9062f81e68c9")
+		(property "Reference" "D44"
+			(at 168.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 168.91 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 166.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 166.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1893f70e-46d7-4eaf-8762-3371effd3339")
+		)
+		(pin "2"
+			(uuid "285c04e5-e8f9-433b-b606-b21371adad4d")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 152.4 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c61bf2d2-ed36-4713-802f-8bcfb857f481")
+		(property "Reference" "COL3"
+			(at 146.304 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 153.67 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a176e55-5977-49ee-aac6-f156bbf5e08c")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "COL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 146.05 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb14730c-ed84-407a-929d-e2217d7a9203")
+		(property "Reference" "D30"
+			(at 148.59 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 148.59 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "583153cd-04e9-4068-82d1-22a2617b4ff9")
+		)
+		(pin "2"
+			(uuid "5a0eba83-eac1-4fc5-8179-02ceba40a0b8")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 196.85 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb32eb4b-f831-49b4-bf03-87f8c51267c0")
+		(property "Reference" "SW6"
+			(at 196.215 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 196.215 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 196.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fdb576e-555a-48a0-8054-4c30502acedb")
+		)
+		(pin "2"
+			(uuid "4726121a-2008-44f1-989b-614db17bfef7")
+		)
+		(pin "3"
+			(uuid "b89d1091-6cb2-4534-9fc0-7fce1d7ccbf5")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 76.2 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce2d2682-6b63-43aa-a8ee-addb82be2fc1")
+		(property "Reference" "ROW4"
+			(at 77.216 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 77.47 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 81.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cea0cfc-70b0-4842-ad75-68b892728074")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "ROW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 205.74 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5c553b-a9d0-43a5-ad8f-f1d9ed622067")
+		(property "Reference" "D24"
+			(at 208.28 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 208.28 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cb4c777-c874-4591-9e89-db925ad1b4e8")
+		)
+		(pin "2"
+			(uuid "62b8c1df-8edb-4033-bf54-d02bd00bfeb7")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 120.65 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d13ab604-cf04-4bde-a29f-543f0d035970")
+		(property "Reference" "D3"
+			(at 118.11 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 118.11 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1af7dc51-db75-461c-9713-4ff01ae2b684")
+		)
+		(pin "2"
+			(uuid "1951bcac-9fbc-4611-95e8-5dee0c1bc6f9")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 104.14 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d35d8367-5e2d-41fa-a9d5-d80437cec491")
+		(property "Reference" "D26"
+			(at 106.68 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 106.68 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37f190c3-ca55-4822-b82c-0c045af1e4c5")
+		)
+		(pin "2"
+			(uuid "2057896e-b98d-499b-b7cc-5f97ecb14790")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 137.16 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d55aad0e-1a25-4d93-ac17-2064b88cd425")
+		(property "Reference" "SW21"
+			(at 136.525 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 136.525 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "507fc4c6-a72f-4ceb-8cb4-32bfc6d7a355")
+		)
+		(pin "2"
+			(uuid "93916076-e1e5-4ed8-b09f-0cbd4e72fe29")
+		)
+		(pin "3"
+			(uuid "cc26ba25-61cd-44a7-b747-e15b8bac6d7b")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 185.42 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d87f6ca5-b2d3-4cd9-af72-32e673f35e4d")
+		(property "Reference" "D46"
+			(at 187.96 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 187.96 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2229b3a-e6ab-480e-a4c6-2afcb2c8ff0e")
+		)
+		(pin "2"
+			(uuid "31b8d0ef-b66f-46bf-923c-af488d1bd1c3")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 171.45 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9699441-d965-4120-bfa6-6f0c9d98a490")
+		(property "Reference" "COL4"
+			(at 164.846 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 172.72 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 171.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d43b3f-f2b4-45cf-bf9f-f898cae26c8c")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "COL4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 76.2 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db2ffff1-16b3-4f78-86e3-4c2700b82919")
+		(property "Reference" "ROW3"
+			(at 77.216 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 77.47 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a42f68b3-43a7-46db-9e20-0bae8dfe726d")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "ROW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 110.49 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4680e29-a7ed-428e-8627-3a778647a475")
+		(property "Reference" "COL1"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 111.76 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 115.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8c9274c-314a-482f-8812-5c7107cc5345")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "COL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 76.2 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e73694cc-ca1e-4bd5-b4e6-0f3b7366077e")
+		(property "Reference" "ROW2"
+			(at 77.216 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 77.47 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dded2dfd-1757-49df-9a57-9f2963ec3a25")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "ROW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 132.08 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7d7fb5e-a431-4d17-991b-91c134b34a3d")
+		(property "Reference" "COL2"
+			(at 125.222 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 133.35 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint_Rev:TestPoint_THTPad_D1.0mm_Drill0.5mm_reversible"
+			(at 137.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfc0e68d-39dd-407e-9d5a-39c087457d6c")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "COL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 100.33 146.05 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8c3dd63-867a-41a6-9194-7aa171cf3dc8")
+		(property "Reference" "D49"
+			(at 97.79 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 97.79 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cab1eea-3431-45cd-b787-33a46735f8f2")
+		)
+		(pin "2"
+			(uuid "79f5cd9f-ad87-4d06-88ec-81dd85efe49e")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 115.57 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecc02df0-82f8-4951-bade-f16ede1c1dd1")
+		(property "Reference" "SW8"
+			(at 114.935 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 114.935 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7f516d6-b963-4bb7-87f4-f7ea08761988")
+		)
+		(pin "2"
+			(uuid "5ed67093-3f9b-49bb-a89e-32928a573cd3")
+		)
+		(pin "3"
+			(uuid "b7c2d327-b999-4dc3-8e20-60350d90f443")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 100.33 73.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5720c83-8803-4b13-bdf5-728541198772")
+		(property "Reference" "D13"
+			(at 97.79 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 97.79 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39f179e4-a254-495e-8b99-1fcd6ba77e4b")
+		)
+		(pin "2"
+			(uuid "27cc8979-c006-428d-bd95-009c7737eef3")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 196.85 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5f3c634-8567-4624-9dec-a4c3613e94a1")
+		(property "Reference" "SW18"
+			(at 196.215 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 196.215 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3449593-8b62-4079-a80b-9d77a41dcb6f")
+		)
+		(pin "2"
+			(uuid "6d5a5d42-793f-4c10-9fe1-163aa45c847e")
+		)
+		(pin "3"
+			(uuid "c1adf67c-27e5-496e-b8cf-a1f7d1a4c68f")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 104.14 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0a4ec6-c246-4401-8046-45114cb811a7")
+		(property "Reference" "D2"
+			(at 106.68 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 106.68 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ed3f2ba-dce4-48f6-8254-c63ee9dc1c0a")
+		)
+		(pin "2"
+			(uuid "80a740b2-4c3c-44f1-9169-9b2fe606ce91")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sw_push_dual:SW_Push_Dual")
+		(at 157.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb4de657-913e-4bb6-84d7-bf0e74e93165")
+		(property "Reference" "SW4"
+			(at 156.845 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 156.845 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d11403d-059a-42be-8925-ca1490c6e789")
+		)
+		(pin "2"
+			(uuid "c181b74b-f66f-47a2-a147-7bca53172c19")
+		)
+		(pin "3"
+			(uuid "ce5867f9-82c4-41c6-b19d-f57c214e12b0")
+		)
+		(instances
+			(project "supercrisp"
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/d9e632a4-60dc-4606-8846-45daaf283f8f"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

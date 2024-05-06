@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PCM_Switch_Keyboard_Kailh_Reversible")(type "KiCad")(uri "${KIPRJMOD}/libraries/PCM_Switch_Keyboard_Kailh_Reversible.pretty")(options "")(descr ""))
+  (lib (name "fluff")(type "KiCad")(uri "${KIPRJMOD}/libraries/fluff.pretty")(options "")(descr ""))
+  (lib (name "Diode")(type "KiCad")(uri "${KIPRJMOD}/libraries/Diode_Rev.pretty")(options "")(descr ""))
+  (lib (name "Testpoint_Rev")(type "KiCad")(uri "${KIPRJMOD}/libraries/Testpoint_Rev.pretty")(options "")(descr ""))
+  (lib (name "MountingHole_NoSilkscreen")(type "KiCad")(uri "${KIPRJMOD}/libraries/MountingHole_NoSilkscreen.pretty")(options "")(descr ""))
+)
