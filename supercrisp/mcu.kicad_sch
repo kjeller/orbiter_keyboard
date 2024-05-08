@@ -4727,6 +4727,16 @@
 		)
 		(uuid "5e857588-aec7-48b4-bfbd-53278cd52d25")
 	)
+	(text "TODO find footprint with legs longer than 1.6mm"
+		(exclude_from_sim no)
+		(at 85.598 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6aca652a-b590-4ea9-8ea6-bbb4e8492616")
+	)
 	(text "TODO"
 		(exclude_from_sim no)
 		(at 158.496 149.606 0)
@@ -6312,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
 			(at 50.8 96.52 0)
 			(effects
 				(font
