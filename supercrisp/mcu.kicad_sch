@@ -4755,7 +4755,7 @@
 		)
 		(uuid "5e857588-aec7-48b4-bfbd-53278cd52d25")
 	)
-	(text "TODO find SMD footprint"
+	(text "TODO find interface for wired split\nAvoid using TRSS preferably"
 		(exclude_from_sim no)
 		(at 61.214 100.33 0)
 		(effects
@@ -5303,6 +5303,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1931ac56-6b1a-4b7e-84f1-f6f6d97d6f77")
 		)
@@ -5316,7 +5325,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5386,7 +5395,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "#PWR025")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5455,6 +5464,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 242.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7dfd2129-880d-44ac-a06f-567fb74624f5")
 		)
@@ -5468,7 +5486,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C12")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5537,6 +5555,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6afbcd79-2b0a-448a-b094-8b198a63630a")
 		)
@@ -5550,7 +5577,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5611,6 +5638,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 26.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d39e0cba-681d-4874-8b5f-ef5607327b9b")
 		)
@@ -5624,7 +5660,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C16")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5693,6 +5729,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 233.045 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b1de30b1-c171-48d0-8bb7-404a5e04638b")
 		)
@@ -5706,7 +5751,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C11")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5721,7 +5766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18d1180b-2706-4bcc-85f6-e703f970a473")
-		(property "Reference" "U1"
+		(property "Reference" "USB_U1"
 			(at 50.165 25.4 0)
 			(effects
 				(font
@@ -5773,6 +5818,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "9e2c2fa4-acb0-4212-b592-42a4853d44a2")
 		)
@@ -5794,11 +5848,11 @@
 		(instances
 			(project "supercrisp"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "U1")
+					(reference "USB_U1")
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "U3")
+					(reference "USB_U2")
 					(unit 1)
 				)
 			)
@@ -5813,7 +5867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a21324e-a5bd-4e66-9aa9-c97b862c3c24")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 195.58 135.89 0)
 			(effects
 				(font
@@ -5863,11 +5917,11 @@
 		(instances
 			(project "supercrisp"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5882,7 +5936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b217762-b12b-4e2e-a3a3-7211ab016056")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR017"
 			(at 224.155 157.48 0)
 			(effects
 				(font
@@ -5932,11 +5986,11 @@
 		(instances
 			(project "supercrisp"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR024")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "#PWR023")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5997,6 +6051,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 38.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82b5f1c4-0f7d-4aee-bb5f-ac4bf7d7ee35")
 		)
@@ -6010,7 +6073,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C14")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6079,7 +6142,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "#PWR019")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6140,6 +6203,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17ccedbe-8797-4767-8d21-70ab4ef1c3cb")
 		)
@@ -6153,7 +6225,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6222,7 +6294,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "#PWR027")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6283,6 +6355,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce55b2f7-4396-4b1e-ac07-d6c8f7a8c9a8")
 		)
@@ -6296,7 +6377,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6312,7 +6393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c46d71d-b1fc-4f6d-b22e-fb5c1a7a8781")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 59.69 113.03 0)
 			(effects
 				(font
@@ -6355,6 +6436,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aae34c83-5fba-4dea-b0aa-21323e3ebe8d")
 		)
@@ -6385,11 +6475,11 @@
 		(instances
 			(project "supercrisp"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6448,6 +6538,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 40.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1ad66d8-fcf0-4f9c-8790-e514048e17a5")
 		)
@@ -6461,7 +6560,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6511,6 +6610,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 85.09 34.29 0)
 			(effects
 				(font
@@ -6625,6 +6733,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac969f13-4188-456e-b895-7fce4f6dd6a1")
 		)
@@ -6638,7 +6755,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6654,7 +6771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7742b3d-7e63-455f-bdb6-c6dbbb6cd71d")
-		(property "Reference" "P1"
+		(property "Reference" "USB_P1"
 			(at 44.45 57.15 0)
 			(effects
 				(font
@@ -6689,6 +6806,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "     C319148"
 			(at 44.45 80.01 0)
 			(effects
 				(font
@@ -6739,11 +6865,11 @@
 		(instances
 			(project "supercrisp"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "P1")
+					(reference "USB_P1")
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "P2")
+					(reference "USB_P2")
 					(unit 1)
 				)
 			)
@@ -6797,6 +6923,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 215.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -7025,6 +7160,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 213.995 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9450fe55-47da-47e7-a0fd-5693f8f505c1")
 		)
@@ -7038,7 +7182,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7105,6 +7249,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67bbacd5-30a6-4192-909c-82b77ee37ef8")
 		)
@@ -7118,7 +7271,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7179,6 +7332,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 85.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f912d59-a7a4-4a99-92a7-ba530e18f7a9")
 		)
@@ -7192,7 +7354,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "C18")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7261,7 +7423,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "#PWR013")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7311,6 +7473,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 217.17 146.05 0)
 			(effects
 				(font
@@ -7404,7 +7575,7 @@
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "#PWR021")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
