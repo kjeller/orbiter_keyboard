@@ -53115,6 +53115,30 @@
 			)
 		)
 	)
+	(gr_text "PCB3D_BR_ORBITER"
+		(at 213.825 126.55 0)
+		(layer "Cmts.User")
+		(uuid "8f2e3688-7085-4f86-b097-e8998238bed3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PCB3D_TL_ORBITER"
+		(at 59.125 27.6 0)
+		(layer "Cmts.User")
+		(uuid "e5237492-3fe0-40af-8814-ed3669756f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 75 44.625)
 		(end 75 41.2)
