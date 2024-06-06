@@ -513,9 +513,9 @@
 		(remove_unused_layers no)
 		(uuid "21b0952b-bddb-41ae-867b-e35679843ea6")
 	)
-	(model "${KIPRJMOD}/libraries/Kailh_PG1353.STEP"
+	(model "${KIPRJMOD}/step/Kailh_PG1353.step"
 		(offset
-			(xyz 0 0 2.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
