@@ -62898,6 +62898,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TODO add via stitching"
+		(at 172.35 30.4 0)
+		(layer "Cmts.User")
+		(uuid "dd8206f9-b3a6-4958-8302-057fbbb119ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PCB3D_TL_ORBITER"
 		(at 59.125 27.6 0)
 		(layer "Cmts.User")
