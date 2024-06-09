@@ -5,5 +5,4 @@
   (lib (name "Diode")(type "KiCad")(uri "${KIPRJMOD}/libraries/Diode_Rev.pretty")(options "")(descr ""))
   (lib (name "Testpoint_Rev")(type "KiCad")(uri "${KIPRJMOD}/libraries/Testpoint_Rev.pretty")(options "")(descr ""))
   (lib (name "MountingHole_NoSilkscreen")(type "KiCad")(uri "${KIPRJMOD}/libraries/MountingHole_NoSilkscreen.pretty")(options "")(descr ""))
-  (lib (name "MJ-4PP-9")(type "KiCad")(uri "${KIPRJMOD}/libraries/MJ-4PP-9.pretty")(options "")(descr ""))
 )
