@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../../../Documents/supercrisp_dxf/")
+			(outputdirectory "../../../../Documents/orbiter_dxf/")
 		)
 	)
 	(net 0 "")
@@ -1044,7 +1044,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e4706566-c3b0-4113-83d8-bac225972b1b")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -1840,7 +1840,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1f87e62-1518-41d2-bdde-4c93c7e90201")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2241,7 +2241,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c77b2d98-c446-427a-8deb-b0e9a0d8454e")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -2929,7 +2929,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/50da8035-9472-4ccc-bd2b-d76d275faa40")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -5821,7 +5821,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e33fd807-faaa-46e6-8a90-c0b226d5e598")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -6142,7 +6142,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e5d2c44-460c-48a1-a976-b0e439b30bf6")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8395,7 +8395,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ac9ac1e9-224d-4c8b-8a1d-3c3691b48c48")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -9518,7 +9518,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/2f05d160-c9d0-41c6-8ac3-38dd52e69508")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -10269,7 +10269,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bf0a62c9-5d7a-43d5-8070-c5079a085dd7")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -11646,7 +11646,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/432e03f2-6674-42ec-9151-e7921a4d715e")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -11975,7 +11975,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/10ad0aca-3d7b-4b81-a4a7-1f6bd58f832b")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -12118,7 +12118,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d2fc63aa-fcce-4864-b34b-7f44d8806930")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -14902,7 +14902,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4ad6f9ba-e2fa-4e22-a531-087f203e00cd")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -16567,7 +16567,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/215a611e-c3bb-4326-ac7b-b91b9dc74414")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -23692,7 +23692,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6aec0958-80aa-4562-8d93-4df36a8f2554")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -24270,7 +24270,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6e94f5ea-9924-4cb3-9dab-03d3765510b5")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -25046,7 +25046,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a8e42545-0d89-49f9-9817-8e8c5b3b7444")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -25189,7 +25189,7 @@
 		(property ki_fp_filters "Texas*MicroSiP*1EP*2.8x3mm*P0.65mm*")
 		(path "/0412af06-3609-4407-8737-5c6175ead47c")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.4 1.61)
@@ -26341,7 +26341,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/da74899b-4229-4f25-bd69-d047d4329e10")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -27524,7 +27524,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/1438ddd4-0a2e-4ebb-bc19-22a901bbd8ed")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -28067,7 +28067,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e8ed7492-7add-4a4d-9131-77e76f63d432")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -30189,7 +30189,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/01f61230-5d1b-4d11-9ba8-23c8005b186d")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -34821,7 +34821,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/c0578c68-264a-4f14-9847-9faba62baf3d")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -37872,7 +37872,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c9c82b5c-f7aa-4e1d-a98c-17326fabb523")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -43584,7 +43584,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/88bad989-3829-4bd0-bcd3-d34ba51b1268")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -43998,7 +43998,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6f45735e-54da-44ef-9242-3759402e5fce")
 		(sheetname "Root")
-		(sheetfile "supercrisp.kicad_sch")
+		(sheetfile "orbiter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)

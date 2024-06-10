@@ -1195,7 +1195,7 @@
 			(uuid "10f1277a-3dd6-49bf-b167-fff0cc9c2288")
 		)
 		(instances
-			(project "supercrisp"
+			(project "orbiter"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
 					(reference "U2")
 					(unit 1)
@@ -1261,7 +1261,7 @@
 			(uuid "dfcd3aeb-ae2f-4551-886d-bf214e7f874d")
 		)
 		(instances
-			(project "supercrisp"
+			(project "orbiter"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
 					(reference "#PWR05")
 					(unit 1)
@@ -1327,7 +1327,7 @@
 			(uuid "131df8b7-4242-475d-bbce-0d4f7e05b0e3")
 		)
 		(instances
-			(project "supercrisp"
+			(project "orbiter"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
 					(reference "#PWR01")
 					(unit 1)
