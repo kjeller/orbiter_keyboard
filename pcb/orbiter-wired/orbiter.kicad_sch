@@ -3452,15 +3452,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 222.25 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "560b9621-1dc9-4cff-859d-2c3cafceefa3")
 		)
@@ -3518,24 +3509,6 @@
 			)
 		)
 		(property "Description" "17V Input 2A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
-			(at 72.39 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C544385"
-			(at 72.39 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C544385"
 			(at 72.39 167.64 0)
 			(effects
 				(font
@@ -3635,15 +3608,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 260.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5987913f-507a-41ad-892e-01e411d3ec5f")
 		)
@@ -3711,15 +3675,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 222.25 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "029444a7-c4a0-4bac-ae24-e0127076995a")
 		)
@@ -3779,15 +3734,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 260.35 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "N/A"
 			(at 260.35 149.86 0)
 			(effects
 				(font
@@ -3929,15 +3875,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b880448c-7fd1-430e-8260-f28a5bb2fef9")
 		)
@@ -3997,15 +3934,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 222.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "N/A"
 			(at 222.25 135.89 0)
 			(effects
 				(font
@@ -4081,15 +4009,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 222.25 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a9684025-11f9-4f06-b45e-4fb3c9c90d8d")
 		)
@@ -4149,15 +4068,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 222.25 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "N/A"
 			(at 222.25 147.32 0)
 			(effects
 				(font
@@ -4234,15 +4144,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 222.25 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bee54114-6137-487a-b8c0-e4b0844d7523")
 		)
@@ -4302,15 +4203,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 260.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "N/A"
 			(at 260.35 124.46 0)
 			(effects
 				(font
@@ -4386,15 +4278,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 222.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5f616c39-099a-41a5-9b55-c2fc624b683d")
 		)
@@ -4454,15 +4337,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 86.36 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 86.36 175.26 0)
 			(effects
 				(font
@@ -4608,15 +4482,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 222.25 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e8747ead-8ba6-441c-abc3-3eed856a47b6")
 		)
@@ -4684,15 +4549,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "02a5e1cc-3c12-4627-a21d-0dbae67ba8d1")
 		)
@@ -4752,15 +4608,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 39.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 39.37 175.26 0)
 			(effects
 				(font
@@ -4902,15 +4749,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 53.34 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2a11e36d-051d-44a7-8c8f-e0f4bdec1403")
 		)
@@ -4981,15 +4819,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 260.35 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "78c950a9-d34f-4f06-a18a-2eda121b23e4")
 		)
@@ -5049,15 +4878,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -5136,15 +4956,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "641beb8a-5dd3-4fb7-8e21-0d265b940de0")
 		)
@@ -5207,15 +5018,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "N/A"
 			(at 260.35 139.7 0)
 			(effects
 				(font
@@ -5354,24 +5156,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C323793"
-			(at 144.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C323793"
-			(at 144.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "ab0f0c67-f04a-417c-b948-bdf92eebb919")
 		)
@@ -5454,15 +5238,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "N/A"
-			(at 222.25 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "550008db-88a4-4c8f-8f60-5270797a005b")
 		)
@@ -5522,15 +5297,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 222.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "N/A"
 			(at 222.25 127 0)
 			(effects
 				(font
@@ -5606,15 +5372,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 97.79 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "17840b15-8612-44d0-b74e-eb6bc8d5b3ef")
 		)
@@ -5677,15 +5434,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 222.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "N/A"
 			(at 222.25 162.56 0)
 			(effects
 				(font

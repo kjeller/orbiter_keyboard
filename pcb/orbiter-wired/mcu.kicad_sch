@@ -4895,24 +4895,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19666"
-			(at 195.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 195.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1931ac56-6b1a-4b7e-84f1-f6f6d97d6f77")
 		)
@@ -4978,24 +4960,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 242.57 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 242.57 125.73 0)
 			(effects
 				(font
@@ -5077,24 +5041,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 223.52 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 223.52 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6afbcd79-2b0a-448a-b094-8b198a63630a")
 		)
@@ -5160,24 +5106,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.045 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 233.045 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 233.045 125.73 0)
 			(effects
 				(font
@@ -5606,24 +5534,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C431535"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C431535"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "R2"
 			(uuid "c922fb3b-da43-4b7f-93b4-a1ffdfdddcb3")
 		)
@@ -5693,15 +5603,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 85.09 34.29 0)
 			(effects
 				(font
@@ -5808,15 +5709,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 153.67 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "1afabe5d-5ba8-45fc-bff7-b02137388a7c")
 		)
@@ -5890,24 +5782,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 204.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 204.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ac969f13-4188-456e-b895-7fce4f6dd6a1")
 		)
@@ -5972,24 +5846,6 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 110.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C319148"
-			(at 110.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C319148"
 			(at 110.49 76.2 0)
 			(effects
 				(font
@@ -6168,24 +6024,6 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
-			(at 215.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C81720"
-			(at 215.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C81720"
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -6405,24 +6243,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 213.995 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 213.995 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9450fe55-47da-47e7-a0fd-5693f8f505c1")
 		)
@@ -6486,24 +6306,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -6584,15 +6386,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 128.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6fe8cf18-c851-476e-a5f3-cd41764cc92a")
 		)
@@ -6656,24 +6449,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C221841"
-			(at 217.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C221841"
 			(at 217.17 146.05 0)
 			(effects
 				(font
