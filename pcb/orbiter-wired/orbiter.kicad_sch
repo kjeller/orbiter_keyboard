@@ -3535,6 +3535,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C544385"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9abd5bb-d953-44e9-b2e5-04797920739e")
 		)
@@ -5345,7 +5354,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C7519"
+		(property "LCSC Part #" "C323793"
 			(at 144.78 170.18 0)
 			(effects
 				(font
