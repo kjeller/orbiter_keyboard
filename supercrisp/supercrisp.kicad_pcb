@@ -81,7 +81,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x0009000_7ffffffe)
+			(layerselection 0x000d033_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -91,7 +91,7 @@
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
-			(plotframeref no)
+			(plotframeref yes)
 			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
@@ -111,7 +111,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 3)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -59843,6 +59843,19 @@
 					(xy 206.096581 80.879162)
 				)
 			)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 197.85 69.580642 0)
+		(layer "F.SilkS")
+		(uuid "994b1d23-8287-4888-93c7-c09ee9a1ed7c")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "PCB3D_BR_ORBITER"
