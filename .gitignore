@@ -1,5 +1,21 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
+# Generic backup files
+*.lck
+*~
+\#*
+.\#*
+
+# KiCad backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+
+# KiCad generated files
+*.erc
+*.net
+*-cache.lib
+*-rescue.lib
 
 # Temporary files
 *.000
