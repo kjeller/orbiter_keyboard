@@ -25103,6 +25103,17 @@
 			(pintype "power_in")
 			(uuid "6c946a6a-02fd-4fcb-af2c-2366b11483b1")
 		)
+		(model "${KIPRJMOD}/step/TPS82140SILR.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -90)
+			)
+		)
 	)
 	(footprint "PCM_Switch_Keyboard_Kailh_Reversible:SW_Kailh_Choc_V2_1.00u_Reversible"
 		(layer "F.Cu")
