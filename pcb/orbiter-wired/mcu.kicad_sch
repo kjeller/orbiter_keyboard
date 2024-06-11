@@ -4903,12 +4903,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "C4")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "C13")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4976,12 +4976,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "C9")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "C18")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5049,12 +5049,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "C7")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "C16")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5122,12 +5122,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "C17")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5191,12 +5191,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR011")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5260,12 +5260,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR012")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5329,12 +5329,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR08")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5398,12 +5398,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR06")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5467,12 +5467,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR09")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5643,12 +5643,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "J1")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "J3")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5717,12 +5717,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5790,12 +5790,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "C5")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "C14")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5895,12 +5895,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "USB_P1")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "USB_P2")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "USB_P1")
 					(unit 1)
 				)
 			)
@@ -5965,12 +5965,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR010")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6178,12 +6178,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "MCU1")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "MCU2")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "MCU1")
 					(unit 1)
 				)
 			)
@@ -6251,12 +6251,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "C6")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "C15")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6322,12 +6322,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "R6")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6394,12 +6394,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6468,12 +6468,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "SW1")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "SW28")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6537,12 +6537,12 @@
 		)
 		(instances
 			(project "orbiter"
-				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
-					(reference "#PWR04")
-					(unit 1)
-				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
