@@ -3799,7 +3799,7 @@
 		)
 		(uuid "fffd1c38-f8a6-4ef9-ad7c-9ae1c8be7efc")
 	)
-	(text "I2C extension port"
+	(text "I2C extension port\n(Configure pull-ups internally)"
 		(exclude_from_sim no)
 		(at 101.854 83.566 0)
 		(effects
@@ -3910,7 +3910,7 @@
 		(uuid "1fef87d0-4c09-4bfb-8e71-d29f697e6108")
 	)
 	(label "T_MCU_ROW2"
-		(at 116.84 130.81 180)
+		(at 160.02 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3987,7 +3987,7 @@
 		(uuid "4123bf58-013d-4cbe-a5ac-af415a2698d6")
 	)
 	(label "T_MCU_COL2"
-		(at 116.84 115.57 180)
+		(at 160.02 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4064,7 +4064,7 @@
 		(uuid "64a37076-41ea-4f6b-8c7d-bc2eee9bfc29")
 	)
 	(label "T_MCU_COL1"
-		(at 116.84 113.03 180)
+		(at 160.02 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4075,7 +4075,7 @@
 		(uuid "675cc3dd-2ed2-49b8-a2d2-f64ccb622a22")
 	)
 	(label "T_MCU_COL5"
-		(at 116.84 123.19 180)
+		(at 160.02 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4185,7 +4185,7 @@
 		(uuid "8e3d26de-57b8-45e0-a5be-f2386094e8f6")
 	)
 	(label "T_MCU_ROW3"
-		(at 116.84 133.35 180)
+		(at 160.02 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4251,7 +4251,7 @@
 		(uuid "9d290177-f469-4f9f-a54a-844c9afe5885")
 	)
 	(label "T_MCU_ROW1"
-		(at 116.84 128.27 180)
+		(at 160.02 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4295,7 +4295,7 @@
 		(uuid "a1f8129c-c692-4cd8-9edc-1d9c707125a9")
 	)
 	(label "T_MCU_ROW0"
-		(at 116.84 125.73 180)
+		(at 160.02 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4372,7 +4372,7 @@
 		(uuid "b02e9d9d-e00f-426b-8625-39f2d9b76cca")
 	)
 	(label "T_MCU_COL0"
-		(at 116.84 110.49 180)
+		(at 160.02 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4427,7 +4427,7 @@
 		(uuid "bd429798-b1b6-498d-a37c-82d4f885ca39")
 	)
 	(label "T_MCU_COL4"
-		(at 116.84 120.65 180)
+		(at 160.02 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4482,7 +4482,7 @@
 		(uuid "c83253c3-902f-4034-aa92-7b80a8af8dff")
 	)
 	(label "T_MCU_ROW4"
-		(at 116.84 135.89 180)
+		(at 160.02 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4559,7 +4559,7 @@
 		(uuid "dc1f3e84-2ad4-4b99-ac42-c501e4574a35")
 	)
 	(label "T_MCU_COL3"
-		(at 116.84 118.11 180)
+		(at 160.02 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5287,7 +5287,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x11")
-		(at 121.92 123.19 0)
+		(at 165.1 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5296,7 +5296,7 @@
 		(fields_autoplaced yes)
 		(uuid "633dc9b7-90a3-4e76-8977-394841a32b97")
 		(property "Reference" "J5"
-			(at 124.46 121.9199 0)
+			(at 167.64 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5305,7 @@
 			)
 		)
 		(property "Value" "Keyboard matrix"
-			(at 124.46 124.4599 0)
+			(at 167.64 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5314,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical"
-			(at 121.92 123.19 0)
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 123.19 0)
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5332,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 121.92 123.19 0)
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
