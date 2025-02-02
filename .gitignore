@@ -44,3 +44,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# JLCPCB generated files
+pcb/orbiter-wired/jlcpcb
+
