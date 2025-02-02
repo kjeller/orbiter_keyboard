@@ -1,6 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "sw_push_dual")(type "KiCad")(uri "${KIPRJMOD}/symbols/sw_push_dual.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS82140SILR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS82140SILR.kicad_sym")(options "")(descr ""))
-  (lib (name "kjellc")(type "KiCad")(uri "${KIPRJMOD}/symbols/kjellc.kicad_sym")(options "")(descr ""))
+  (lib (name "sw_push_dual")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/sw_push_dual.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS82140SILR")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/TPS82140SILR.kicad_sym")(options "")(descr ""))
+  (lib (name "kjellc")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/kjellc.kicad_sym")(options "")(descr ""))
 )

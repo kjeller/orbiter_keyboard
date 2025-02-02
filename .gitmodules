@@ -1,0 +1,3 @@
+[submodule "pcb/orbiter-wired/libs"]
+	path = pcb/orbiter-wired/libs
+	url = git@github.com:kjeller/kicad-library.git
