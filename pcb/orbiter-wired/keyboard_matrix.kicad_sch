@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "48e44c17-3f14-461c-964b-fb6c461ee2a2")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,10 +110,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:1N4001"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -207,10 +216,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -219,10 +228,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -268,11 +277,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "sw_push_dual:SW_Push_Dual"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -329,9 +343,10 @@
 				)
 			)
 			(symbol "SW_Push_Dual_0_1"
-				(circle
-					(center -2.032 -3.81)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -3.81) (xy -2.54 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -351,10 +366,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.762)
-					)
+				(circle
+					(center -2.032 -3.81)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -377,8 +391,30 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy -2.54 -2.54)
+						(xy 0 -2.54) (xy 0 -0.762)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -3.81)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -401,30 +437,8 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 0) (xy -3.81 -3.81) (xy -2.54 -3.81)
+						(xy 2.54 -2.54) (xy -2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -3.81)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -490,7 +504,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "Key matrix"
+		(exclude_from_sim no)
+		(at 66.04 24.13 0)
+		(size 169.926 138.176)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "45960859-0083-42f9-8c8f-4d46bab156a7")
 	)
 	(junction
 		(at 199.39 69.85)
@@ -2663,30 +2700,8 @@
 		)
 		(uuid "fe6b5820-c734-43f7-9c22-1976362508e3")
 	)
-	(text_box "Key matrix"
-		(exclude_from_sim no)
-		(at 66.04 24.13 0)
-		(size 169.926 138.176)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "45960859-0083-42f9-8c8f-4d46bab156a7")
-	)
 	(label "M_ROW1"
 		(at 83.82 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2697,7 +2712,6 @@
 	)
 	(label "M_COL[0..5]"
 		(at 81.28 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2708,7 +2722,6 @@
 	)
 	(label "M_COL4"
 		(at 179.07 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2719,7 +2732,6 @@
 	)
 	(label "M_COL1"
 		(at 118.11 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2730,7 +2742,6 @@
 	)
 	(label "M_ROW2"
 		(at 83.82 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2741,7 +2752,6 @@
 	)
 	(label "M_ROW3"
 		(at 83.82 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2752,7 +2762,6 @@
 	)
 	(label "M_ROW[0..4]"
 		(at 81.28 39.37 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2763,7 +2772,6 @@
 	)
 	(label "M_COL0"
 		(at 97.79 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2774,7 +2782,6 @@
 	)
 	(label "M_COL2"
 		(at 139.7 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2785,7 +2792,6 @@
 	)
 	(label "M_COL3"
 		(at 160.02 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2796,7 +2802,6 @@
 	)
 	(label "M_ROW0"
 		(at 83.82 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2807,7 +2812,6 @@
 	)
 	(label "M_ROW4"
 		(at 83.82 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2818,7 +2822,6 @@
 	)
 	(label "M_COL5"
 		(at 199.39 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2830,7 +2833,6 @@
 	(hierarchical_label "M_COL[0..5]"
 		(shape input)
 		(at 81.28 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2842,7 +2844,6 @@
 	(hierarchical_label "M_ROW[0..4]"
 		(shape input)
 		(at 81.28 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
