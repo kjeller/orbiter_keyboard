@@ -3301,17 +3301,6 @@
 		)
 		(uuid "97712f7d-05b8-4dbf-87dc-dd0759b0693f")
 	)
-	(text "TODO FIX"
-		(exclude_from_sim no)
-		(at 146.05 37.084 0)
-		(effects
-			(font
-				(size 10 10)
-				(bold yes)
-			)
-		)
-		(uuid "cf02a08e-fe50-4932-8cba-982e097af072")
-	)
 	(text "(STM32F072CBT supports USB without external clock)"
 		(exclude_from_sim no)
 		(at 258.318 164.338 0)
@@ -5335,6 +5324,16 @@
 		(uuid "b1018213-d995-4db4-8316-52185362b00e")
 	)
 	(label "VOUT_3V3"
+		(at 158.75 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b47c0f6f-8554-456a-8df5-755d5bbb4e49")
+	)
+	(label "VOUT_3V3"
 		(at 39.37 33.655 180)
 		(effects
 			(font
@@ -5373,16 +5372,6 @@
 			(justify right bottom)
 		)
 		(uuid "c11a71a6-96b6-4776-8359-3149cd3c47cd")
-	)
-	(label "VOUT_3V3"
-		(at 143.51 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c11c883f-2065-425c-ae55-b73d7b3a86d6")
 	)
 	(label "NRST"
 		(at 27.94 184.15 180)
@@ -6966,7 +6955,7 @@
 	)
 	(symbol
 		(lib_id "STM32F4_REV2-rescue:GND-power")
-		(at 158.75 43.18 0)
+		(at 143.51 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6974,7 +6963,7 @@
 		(dnp no)
 		(uuid "8b8d6062-ee07-441c-86a6-e03a26730b8b")
 		(property "Reference" "#PWR012"
-			(at 158.75 49.53 0)
+			(at 143.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,7 +6972,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 46.99 0)
+			(at 143.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +6980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 43.18 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +6989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 43.18 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,7 +6998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 43.18 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +7012,7 @@
 		(instances
 			(project "orbiter"
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/c14a50ad-c630-40dd-ac14-b3b40c9c245d"
-					(reference "#PWR018")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/623f70b3-6381-43ff-98c1-e36c34bee313/e058b5b4-db4d-4bc7-8f42-8e3bd37c89bf"
